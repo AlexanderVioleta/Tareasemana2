@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tarea2</string>
+    <string name="nombre">NOMBRE COMPLETO</string>
+    <string name="email">EMAIL</string>
+    <string name="phone">TELÉFONO</string>
+    <string name="descripcion">DESCRIPCIÓN CONTACTO</string>
+    <string name="boton">SIGUIENTE</string>
+    <string name="nacimiento">MARCAR FECHA DE NACIMIENTO</string>
+    <string name="confirmar">CONFIRMAR DATOS</string>
+    <string name="nombre_muestra">NOMBRE</string>
+    <string name="fecha_nacimiento">FECHA DE NACIMIENTO</string>
+    <string name="dato_nacimiento">12/10/2016</string>
+    <string name="telefono_ingresado">TELÉFONO</string>
+    <string name="telefono_muestra">968456963</string>
+    <string name="email_ingresado">EMAIL</string>
+    <string name="email_muestra">ana123@gmail.com</string>
+    <string name="descripcion_ingresada">DESCRIPCIÓN</string>
+    <string name="descripcion_muestra">Nos conocimos en el trabajo</string>
+    <string name="editar_datos">EDITAR DATOS</string>
+    <string name="año_env">año</string>
+    <string name="mes_env">mes</string>
+    <string name="dia_env">dia</string>
+    <string name="nombre_env">nombre</string>
+    <string name="telefono_env">telefono</string>
+    <string name="email_env">email</string>
+    <string name="descripcion_env">descripcion</string>
+</resources>

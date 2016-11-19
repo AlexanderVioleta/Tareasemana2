@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/scrollview"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:isScrollContainer="true">
+    >
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.violeta_tovar.tarea2.Activity1"
+
+    >
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/id_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nombre_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre"
+            android:background="@android:color/holo_blue_bright"
+            android:inputType="text"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="@string/nacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamaño_nacimiento"
+        android:layout_marginTop="@dimen/espacio"
+        android:gravity="center"
+
+        />
+
+    <DatePicker
+
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:calendarViewShown="false"
+        android:id="@+id/datePicker"
+             />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/id_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/telefono_caja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:background="@android:color/holo_blue_bright"
+            android:inputType="phone"
+
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/id_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/email_caja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:background="@android:color/holo_blue_bright"
+            android:inputType="textEmailAddress"
+
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/id_decripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/descripcion_caja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/descripcion"
+            android:background="@android:color/holo_blue_bright"
+            android:inputType="text"
+
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:text="@string/boton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button"
+        android:layout_weight="1" />
+
+
+
+</LinearLayout>
+
+</ScrollView>
